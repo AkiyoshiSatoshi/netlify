@@ -1,8 +1,10 @@
 module.exports = {
   devServer: {
-    proxy: 'https://api.coin.z.com',
+    host: "localhost",
+    port: 8080,
+    proxy: "https://api.coin.z.com",
     compress: true,
-    disableHostCheck: true
+    disableHostCheck: true,
   },
-  publicPath: './',
+  publicPath: "./",
 };
