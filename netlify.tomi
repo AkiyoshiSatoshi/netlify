@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://api.coin.z.com/*"
+  to = "https://new.example.com/:splat"
+  status = 301
+  force = true
