@@ -41,7 +41,6 @@ export default {
 
     ); 
     axios.defaults.withCredentials = true;
-    console.log(item.data.data)
     const cryptData =item.data.data;
     this.cryptlist =cryptData;
   },
