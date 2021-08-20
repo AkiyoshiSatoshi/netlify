@@ -5,7 +5,11 @@ module.exports = {
     disableHostCheck: true,
     client: {
       progress: true,
-    }
+      overlay: {
+        errors: true,
+        warnings: false,
+      },
+    },
   },
   publicPath: "./",
 };
