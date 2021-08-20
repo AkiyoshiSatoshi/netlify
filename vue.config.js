@@ -7,9 +7,8 @@ module.exports = {
       progress: true,
       overlay: {
         errors: true,
-        warnings: false,
       },
-    },
+    }
   },
   publicPath: "./",
 };
